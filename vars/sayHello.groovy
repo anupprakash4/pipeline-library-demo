@@ -1,4 +1,4 @@
-@library('upgrad-demo')
+@Library('upgrad-demo')
 
 stage('Demo') {
    echo 'Hello World'
