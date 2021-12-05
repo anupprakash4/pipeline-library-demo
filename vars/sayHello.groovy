@@ -1,6 +1,6 @@
 @Library('upgrad-demo')
 
-stage('Demo') {
+stage('demo') {
    echo 'Hello World'
    sayHello 'Dave'
 }
