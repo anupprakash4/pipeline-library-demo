@@ -1,6 +1,7 @@
-#!/usr/bin/env groovy
+@library('upgrad-demo')
 
-def call(String name = 'human') {
-  echo "Hello, ${name}."
+stage('Demo') {
+   echo 'Hello World'
+   sayHello 'Dave'
 }
 
